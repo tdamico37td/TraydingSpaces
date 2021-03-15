@@ -1,3 +1,3 @@
-USE restaurant;
+USE friendlist;
 
-INSERT INTO reservations (customerName, customerEmail, customerID, phoneNumber) VALUES ("john smith", "jsmith@google.com", "abc123", "123-456-7890");
+INSERT INTO friendData (friendName, phoneNumber, quizScore) VALUES ("john smith", "123-456-7890", "65");

@@ -10,7 +10,7 @@ var connection = mysql.createConnection ({
     host:"127.0.0.1",
     user: "root",
     password: "password123",
-    database:"restaurant"
+    database:"friendlist"
 });
 // console.log(mysql);
 // connect to the mysql server sql database
@@ -19,7 +19,7 @@ connection.connect((err) => {
         console.error(`Unable to connect ${err}`);
         return;
     }
-    console.log(`We were able to connect to ${connection.threadId}`);
+    console.log(`We've connected to ${connection.threadId}`);
 });
 
 // Tells node that we are creating an "express" server

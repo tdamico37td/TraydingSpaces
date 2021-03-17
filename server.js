@@ -19,7 +19,7 @@ connection.connect((err) => {
         console.error(`Unable to connect ${err}`);
         return;
     }
-    console.log(`We've connected to ${connection.threadId}`);
+    console.log(`We've connected to ${connection.threadId}. Time to make new friends!`);
 });
 
 // Tells node that we are creating an "express" server

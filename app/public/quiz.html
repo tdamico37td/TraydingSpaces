@@ -10,132 +10,78 @@
   <script src=“https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js”></script>
 </head>
 <body>
-  <div class=“container”>
-    <h1>Friend Trayder Quiz</h1>
-    <h2>Every question to be answered on a scale of 1-5, with 5 being “strongly agree”</h2>
-    <form id=“quiz-form” required>
-      <div class=“form-group clearfix”>
+
+  <div class="container">
+    <h1>Fried Trayder Quiz</h1>
+    <form id="quiz-form" required>
+      <div class="form-group clearfix">
         <h2>personal information</h2>
-        <!-- <label for=“email”>Full Name</label> -->
-        <input type=“text” class=“form-control user-info” id=“user-name” placeholder=“first & last initial” required>
-        <!-- <label for=“email”>Selfie</label> -->
-        <input type=“text” class=“form-control” id=“user-image” placeholder=“image url” required>
+        <!-- <label for="email">Full Name</label> -->
+        <input type="text" class="form-control user-info" id="user-name" placeholder="first & last initial" required>
+        <!-- <label for="email">Selfie</label> -->
+        <input type="text" class="form-control" id="user-image" placeholder="image url" required>
       </div>
-      <div class=“form-group”>
+      <div class="form-group">
         <h2>Question 1</h2>
-        <h3>How much of an extrovert are you?</h3>
-        <div class=“btn-toolbar” data-toggle=“buttons”>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option1” autocomplete=“off” value=“1”> OPT 1
+        <div class="btn-toolbar" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option1" autocomplete="off" value="1"> OPT 1
           </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option2” autocomplete=“off” value=“2”> OPT 2
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option2" autocomplete="off" value="2"> OPT 2
           </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option3” autocomplete=“off” value=“3”> OPT 3
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option3" autocomplete="off" value="3"> OPT 3
           </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option4” autocomplete=“off” value=“4”> OPT 4
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option4" autocomplete="off" value="4"> OPT 4
           </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option5” autocomplete=“off” value=“5”> OPT 5
-          </label>
-        </div>
-      </div>
-      <div class=“form-group”>
-        <h2>Question 2</h2>
-        <h3>How health conscious are you?</h3>
-        <div class=“btn-toolbar” data-toggle=“buttons”>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0” id=“option1" autocomplete=“off” value=“1"> OPT 1
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0” id=“option2" autocomplete=“off” value=“2"> OPT 2
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0” id=“option3" autocomplete=“off” value=“3"> OPT 3
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0” id=“option4" autocomplete=“off” value=“4"> OPT 4
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0” id=“option5" autocomplete=“off” value=“5"> OPT 5
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option5" autocomplete="off" value="5"> OPT 5
           </label>
         </div>
       </div>
-      <div class=“form-group”>
-        <h2>Question 3</h2>
-        <h3>You work for the money?</h3>
-        <div class=“btn-toolbar” data-toggle=“buttons”>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option1” autocomplete=“off” value=“1”> OPT 1
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option2” autocomplete=“off” value=“2”> OPT 2
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option3” autocomplete=“off” value=“3”> OPT 3
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option4” autocomplete=“off” value=“4”> OPT 4
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option5” autocomplete=“off” value=“5”> OPT 5
-          </label>
+        <!-- Reservation Page -->
+        <div class="card">
+          <div class="card-header">
+            Table Reservation
+          </div>
+          <div class="card-body">
+            <form role="form" id="reservationForm">
+              <div class="form-group">
+                <label for="reserve-name">Name</label>
+                <input type="text" class="form-control" id="reserve-name">
+              </div>
+              <div class="form-group">
+                <label for="reserve-phone">Phone Number</label>
+                <input type="text" class="form-control" id="reserve-phone">
+              </div>
+              <div class="form-group">
+                <label for="reserve-email">Email</label>
+                <input type="text" class="form-control" id="reserve-email">
+              </div>
+              <div class="form-group">
+                <label for="reserve-unique-id">Unique ID</label>
+                <input type="text" class="form-control" id="reserve-unique-id">
+              </div>
+              <button type="button" class="btn btn-primary submit" id="submit-btn">Submit</button>
+            </form>
+          </div>
         </div>
-      </div>
-      <div class=“form-group”>
-        <h2>Question 4</h2>
-        <h3>You are politically moderate?</h3>
-        <div class=“btn-toolbar” data-toggle=“buttons”>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0” id=“option1" autocomplete=“off” value=“1"> OPT 1
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0” id=“option2" autocomplete=“off” value=“2"> OPT 2
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0” id=“option3" autocomplete=“off” value=“3"> OPT 3
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0” id=“option4" autocomplete=“off” value=“4"> OPT 4
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0” id=“option5" autocomplete=“off” value=“5"> OPT 5
-          </label>
-        </div>
-      </div>
-      <div class=“form-group”>
-        <h2>Question 5</h2>
-        <h3>Texting is the best form of communication?</h3>
-        <div class=“btn-toolbar” data-toggle=“buttons”>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option1” autocomplete=“off” value=“1”> OPT 1
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option2” autocomplete=“off” value=“2”> OPT 2
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option3” autocomplete=“off” value=“3”> OPT 3
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option4” autocomplete=“off” value=“4”> OPT 4
-          </label>
-          <label class=“btn btn-primary”>
-            <input type=“radio” name=“score-0" id=“option5” autocomplete=“off” value=“5”> OPT 5
-          </label>
-        </div>
-      </div>
       </div>
     </div>
-    <!-- <footer class=“footer”>
-      <div class=“container”>
+
+
+    <footer class="footer">
+      <div class="container">
         <p>
-          <a href=“/api/tables”>API Table Link</a> |
-          <a href=“/api/waitlist”>API Wait List</a>
+          <a href="/api/tables">API Table Link</a> |
+          <a href="/api/waitlist">API Wait List</a>
       </div>
-    </footer> -->
+    </footer>
+
   </div>
+
 </body>
 </html>
 

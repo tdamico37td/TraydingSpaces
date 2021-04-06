@@ -12,10 +12,10 @@
 <body>
 
   <div class="container">
-    <h1>Fried Trayder Quiz</h1>
+    <h1>Friend Trayder Quiz</h1>
     <form id="quiz-form" required>
       <div class="form-group clearfix">
-        <h2>personal information</h2>
+        <h2>Personal Information</h2>
         <!-- <label for="email">Full Name</label> -->
         <input type="text" class="form-control user-info" id="user-name" placeholder="first & last initial" required>
         <!-- <label for="email">Selfie</label> -->
@@ -25,49 +25,98 @@
         <h2>Question 1</h2>
         <div class="btn-toolbar" data-toggle="buttons">
           <label class="btn btn-primary">
-            <input type="radio" name="score-0" id="option1" autocomplete="off" value="1"> OPT 1
+            <input type="radio" name="score-0" id="option1" autocomplete="off" value="1"> 1
           </label>
           <label class="btn btn-primary">
-            <input type="radio" name="score-0" id="option2" autocomplete="off" value="2"> OPT 2
+            <input type="radio" name="score-0" id="option2" autocomplete="off" value="2"> 2
           </label>
           <label class="btn btn-primary">
-            <input type="radio" name="score-0" id="option3" autocomplete="off" value="3"> OPT 3
+            <input type="radio" name="score-0" id="option3" autocomplete="off" value="3"> 3
           </label>
           <label class="btn btn-primary">
-            <input type="radio" name="score-0" id="option4" autocomplete="off" value="4"> OPT 4
+            <input type="radio" name="score-0" id="option4" autocomplete="off" value="4"> 4
           </label>
           <label class="btn btn-primary">
-            <input type="radio" name="score-0" id="option5" autocomplete="off" value="5"> OPT 5
+            <input type="radio" name="score-0" id="option5" autocomplete="off" value="5"> 5
+          </label>
+        </div>
+        <h2>Question 2</h2>
+        <div class="btn-toolbar" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option1" autocomplete="off" value="1"> 1
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option2" autocomplete="off" value="2"> 2
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option3" autocomplete="off" value="3"> 3
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option4" autocomplete="off" value="4"> 4
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option5" autocomplete="off" value="5"> 5
+          </label>
+        </div>
+        <h2>Question 3</h2>
+        <div class="btn-toolbar" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option1" autocomplete="off" value="1"> 1
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option2" autocomplete="off" value="2"> 2
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option3" autocomplete="off" value="3"> 3
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option4" autocomplete="off" value="4"> 4
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option5" autocomplete="off" value="5"> 5
+          </label>
+        </div>
+        <h2>Question 4</h2>
+        <div class="btn-toolbar" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option1" autocomplete="off" value="1"> 1
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option2" autocomplete="off" value="2"> 2
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option3" autocomplete="off" value="3"> 3
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option4" autocomplete="off" value="4"> 4
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option5" autocomplete="off" value="5"> 5
+          </label>
+        </div>
+        <h2>Question 5</h2>
+        <div class="btn-toolbar" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option1" autocomplete="off" value="1"> 1
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option2" autocomplete="off" value="2"> 2
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option3" autocomplete="off" value="3"> 3
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option4" autocomplete="off" value="4"> 4
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="score-0" id="option5" autocomplete="off" value="5"> 5
           </label>
         </div>
       </div>
+      
+      <!-- hit submit button to send in answers, pull others from database and search for matches -->
+      <button type="button" class="btn btn-primary submit" id="submit-btn">Submit</button>
         <!-- Reservation Page -->
-        <div class="card">
-          <div class="card-header">
-            Table Reservation
-          </div>
-          <div class="card-body">
-            <form role="form" id="reservationForm">
-              <div class="form-group">
-                <label for="reserve-name">Name</label>
-                <input type="text" class="form-control" id="reserve-name">
-              </div>
-              <div class="form-group">
-                <label for="reserve-phone">Phone Number</label>
-                <input type="text" class="form-control" id="reserve-phone">
-              </div>
-              <div class="form-group">
-                <label for="reserve-email">Email</label>
-                <input type="text" class="form-control" id="reserve-email">
-              </div>
-              <div class="form-group">
-                <label for="reserve-unique-id">Unique ID</label>
-                <input type="text" class="form-control" id="reserve-unique-id">
-              </div>
-              <button type="button" class="btn btn-primary submit" id="submit-btn">Submit</button>
-            </form>
-          </div>
-        </div>
       </div>
     </div>
 
@@ -87,65 +136,3 @@
 
 <!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
 
-<!-- <script type=“text/javascript”>
-  // In this code below we create the Front-end JavaScript which “POSTS” our form data to our express server.
-  // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
-  // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
-  // In this case the associated code “saves” the data to the table-data.js file or waitinglist-data.js file
-  document.querySelector(‘#submit-btn’).onclick = (event) => {
-    // prevents page from refreshing
-    event.preventDefault()
-    let newReservation = {
-      customerName: document.querySelector(“#reserve-name”).value.trim(),
-      phoneNumber: document.querySelector(“#reserve-phone”).value.trim(),
-      customerEmail: document.querySelector(“#reserve-email”).value.trim(),
-      customerID: document.querySelector(“#reserve-unique-id”).value.trim()
-    };
-    // sets value to empty string
-    document.querySelectorAll(“input”).forEach(elm => {
-      elm.value = “”;
-    })
-    console.log(newReservation);
-    // This line is the magic. It”s very similar to the standard ajax function we used.
-    // Essentially we give it a URL, we give it the object we want to send, then we have a “callback”.
-    // The callback is the response of the server. In our case, we set up code in api-routes that “returns” true or false
-    // depending on if a tables is available or not.
-    fetch(“/api/tables”, {
-      method: ‘POST’, // or ‘PUT’
-      headers: {
-        ‘Content-Type’: ‘application/json’,
-      },
-      body: JSON.stringify(newReservation),
-    })
-      .then(response => response.json())
-      .then(data => {
-        console.log(‘Success:’, data);
-        if (data) {
-          alert(“Yay! You are officially booked!“);
-        }
-        // If a table is available... tell user they on the waiting list.
-        else {
-          alert(“Sorry you are on the wait list”);
-        }
-      })
-      .catch((error) => {
-        console.error(‘Error:’, error);
-      });
-      // $.post(“/api/tables”, newReservation,
-      // function (data) {
-      //   // If a table is available... tell user they are booked.
-      //   if (data) {
-      //     alert(“Yay! You are officially booked!“);
-      //   }
-      //   // If a table is available... tell user they on the waiting list.
-      //   else {
-      //     alert(“Sorry you are on the wait list”);
-      //   }
-      //   // Clear the form when submitting
-      //   $(“#reserve-name”).val(“”);
-      //   $(“#reserve-phone”).val(“”);
-      //   $(“#reserve-email”).val(“”);
-      //   $(“#reserve-unique-id”).val(“”);
-      // });
-  };
-</script> -->

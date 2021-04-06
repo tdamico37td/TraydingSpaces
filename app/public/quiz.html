@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head>
+  <meta charset=“UTF-8">
+  <title>Reservation Page</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel=“stylesheet” href=“https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”>
+  <link rel=“stylesheet” href=“https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css”>
+  <script src=“https://code.jquery.com/jquery.js”></script>
+  <script src=“https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js”></script>
+</head>
+<body>
+  <div class=“container”>
+    <h1>Friend Trayder Quiz</h1>
+    <h2>Every question to be answered on a scale of 1-5, with 5 being “strongly agree”</h2>
+    <form id=“quiz-form” required>
+      <div class=“form-group clearfix”>
+        <h2>personal information</h2>
+        <!-- <label for=“email”>Full Name</label> -->
+        <input type=“text” class=“form-control user-info” id=“user-name” placeholder=“first & last initial” required>
+        <!-- <label for=“email”>Selfie</label> -->
+        <input type=“text” class=“form-control” id=“user-image” placeholder=“image url” required>
+      </div>
+      <div class=“form-group”>
+        <h2>Question 1</h2>
+        <h3>How much of an extrovert are you?</h3>
+        <div class=“btn-toolbar” data-toggle=“buttons”>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option1” autocomplete=“off” value=“1”> OPT 1
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option2” autocomplete=“off” value=“2”> OPT 2
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option3” autocomplete=“off” value=“3”> OPT 3
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option4” autocomplete=“off” value=“4”> OPT 4
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option5” autocomplete=“off” value=“5”> OPT 5
+          </label>
+        </div>
+      </div>
+      <div class=“form-group”>
+        <h2>Question 2</h2>
+        <h3>How health conscious are you?</h3>
+        <div class=“btn-toolbar” data-toggle=“buttons”>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0” id=“option1" autocomplete=“off” value=“1"> OPT 1
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0” id=“option2" autocomplete=“off” value=“2"> OPT 2
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0” id=“option3" autocomplete=“off” value=“3"> OPT 3
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0” id=“option4" autocomplete=“off” value=“4"> OPT 4
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0” id=“option5" autocomplete=“off” value=“5"> OPT 5
+          </label>
+        </div>
+      </div>
+      <div class=“form-group”>
+        <h2>Question 3</h2>
+        <h3>You work for the money?</h3>
+        <div class=“btn-toolbar” data-toggle=“buttons”>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option1” autocomplete=“off” value=“1”> OPT 1
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option2” autocomplete=“off” value=“2”> OPT 2
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option3” autocomplete=“off” value=“3”> OPT 3
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option4” autocomplete=“off” value=“4”> OPT 4
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option5” autocomplete=“off” value=“5”> OPT 5
+          </label>
+        </div>
+      </div>
+      <div class=“form-group”>
+        <h2>Question 4</h2>
+        <h3>You are politically moderate?</h3>
+        <div class=“btn-toolbar” data-toggle=“buttons”>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0” id=“option1" autocomplete=“off” value=“1"> OPT 1
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0” id=“option2" autocomplete=“off” value=“2"> OPT 2
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0” id=“option3" autocomplete=“off” value=“3"> OPT 3
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0” id=“option4" autocomplete=“off” value=“4"> OPT 4
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0” id=“option5" autocomplete=“off” value=“5"> OPT 5
+          </label>
+        </div>
+      </div>
+      <div class=“form-group”>
+        <h2>Question 5</h2>
+        <h3>Texting is the best form of communication?</h3>
+        <div class=“btn-toolbar” data-toggle=“buttons”>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option1” autocomplete=“off” value=“1”> OPT 1
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option2” autocomplete=“off” value=“2”> OPT 2
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option3” autocomplete=“off” value=“3”> OPT 3
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option4” autocomplete=“off” value=“4”> OPT 4
+          </label>
+          <label class=“btn btn-primary”>
+            <input type=“radio” name=“score-0" id=“option5” autocomplete=“off” value=“5”> OPT 5
+          </label>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- <footer class=“footer”>
+      <div class=“container”>
+        <p>
+          <a href=“/api/tables”>API Table Link</a> |
+          <a href=“/api/waitlist”>API Wait List</a>
+      </div>
+    </footer> -->
+  </div>
+</body>
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+
+<!-- <script type=“text/javascript”>
+  // In this code below we create the Front-end JavaScript which “POSTS” our form data to our express server.
+  // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+  // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+  // In this case the associated code “saves” the data to the table-data.js file or waitinglist-data.js file
+  document.querySelector(‘#submit-btn’).onclick = (event) => {
+    // prevents page from refreshing
+    event.preventDefault()
+    let newReservation = {
+      customerName: document.querySelector(“#reserve-name”).value.trim(),
+      phoneNumber: document.querySelector(“#reserve-phone”).value.trim(),
+      customerEmail: document.querySelector(“#reserve-email”).value.trim(),
+      customerID: document.querySelector(“#reserve-unique-id”).value.trim()
+    };
+    // sets value to empty string
+    document.querySelectorAll(“input”).forEach(elm => {
+      elm.value = “”;
+    })
+    console.log(newReservation);
+    // This line is the magic. It”s very similar to the standard ajax function we used.
+    // Essentially we give it a URL, we give it the object we want to send, then we have a “callback”.
+    // The callback is the response of the server. In our case, we set up code in api-routes that “returns” true or false
+    // depending on if a tables is available or not.
+    fetch(“/api/tables”, {
+      method: ‘POST’, // or ‘PUT’
+      headers: {
+        ‘Content-Type’: ‘application/json’,
+      },
+      body: JSON.stringify(newReservation),
+    })
+      .then(response => response.json())
+      .then(data => {
+        console.log(‘Success:’, data);
+        if (data) {
+          alert(“Yay! You are officially booked!“);
+        }
+        // If a table is available... tell user they on the waiting list.
+        else {
+          alert(“Sorry you are on the wait list”);
+        }
+      })
+      .catch((error) => {
+        console.error(‘Error:’, error);
+      });
+      // $.post(“/api/tables”, newReservation,
+      // function (data) {
+      //   // If a table is available... tell user they are booked.
+      //   if (data) {
+      //     alert(“Yay! You are officially booked!“);
+      //   }
+      //   // If a table is available... tell user they on the waiting list.
+      //   else {
+      //     alert(“Sorry you are on the wait list”);
+      //   }
+      //   // Clear the form when submitting
+      //   $(“#reserve-name”).val(“”);
+      //   $(“#reserve-phone”).val(“”);
+      //   $(“#reserve-email”).val(“”);
+      //   $(“#reserve-unique-id”).val(“”);
+      // });
+  };
+</script> -->

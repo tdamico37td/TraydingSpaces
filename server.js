@@ -2,16 +2,18 @@
 // Series of npm packages that we will use to give our server useful functionality
 var mysql = require("mysql");
 var express = require("express");
+var bodyParser = require("body-parser");
 
 // EXPRESS CONFIGURATION
-// This sets up the basic properties for our express server
-var connection = mysql.createConnection ({
-    port: 3306,
-    host:"127.0.0.1",
-    user: "root",
-    password: "password123",
-    database:"friendlist"
-});
+// // This sets up the basic properties for our express server
+// var connection = mysql.createConnection ({
+//     port: 3306,
+//     host:"127.0.0.1",
+//     user: "root",
+//     password: "password123",
+//     database:"friendlist"
+// });
+
 // console.log(mysql);
 // connect to the mysql server sql database
 connection.connect((err) => {
